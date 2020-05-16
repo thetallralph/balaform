@@ -13,7 +13,9 @@ fields:
 - name: questions
   type: blocks
   label: Questions
-  template_types: []
+  template_types:
+  - text-field
+  - multiselection
   config:
     min: 
     max: 

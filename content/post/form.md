@@ -1,5 +1,4 @@
 +++
-draft = true
 form_title = "Your form"
 publish = false
 [[questions]]

@@ -1,4 +1,19 @@
 ---
 label: Form
 hide_body: true
-fields: []
+fields:
+- name: form_title
+  type: text
+  config:
+    required: false
+  label: Form Title
+- name: publish
+  type: boolean
+  label: Publish
+- name: questions
+  type: blocks
+  label: Questions
+  template_types: []
+  config:
+    min: 
+    max: 

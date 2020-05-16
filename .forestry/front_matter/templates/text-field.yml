@@ -1,4 +1,21 @@
 ---
 label: text-field
 hide_body: true
-fields: []
+fields:
+- name: label
+  type: text
+  config:
+    required: false
+  label: label
+- name: required
+  type: boolean
+  label: Required
+- name: descriptions
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Descriptions

@@ -1,4 +1,13 @@
 ---
 label: multiselection
 hide_body: true
-fields: []
+fields:
+- name: label
+  type: text
+  config:
+    required: false
+  label: label
+- name: options
+  type: tag_list
+  default: []
+  label: options
